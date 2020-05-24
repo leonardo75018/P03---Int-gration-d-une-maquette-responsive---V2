@@ -1,0 +1,627 @@
+
+
+/*--------------- Générale--------------- */
+ *{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul li{
+    list-style: none;
+
+}
+
+#center-p{
+    padding: 5% 10%; 
+
+}
+
+p{
+    font-size: 2vh; 
+    
+    
+}
+
+h3, h4,p , h2 {
+    padding: 2% 0%;
+}
+
+h2{
+    font-weight: bolder;
+}
+
+
+
+/*--------------- Les Sections --------------- */
+
+
+
+
+
+
+
+/* -----Header---- */
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("./images/mastehead.jpg") no-repeat center ;
+    background-size: cover;  
+    color: whitesmoke;
+    
+}
+
+/* --------Logo--------- */
+header #logo{
+    display: flex;
+    padding: 2rem;
+    align-items: center;      
+}
+
+header #logo img{
+    display: flex;
+    align-items: center;
+   
+}
+
+
+header h1{
+    font-size: 5vh;
+   
+}
+
+
+ /* --------slogan--------- */
+header #slogan{
+     width: 50%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     padding: 40vh 10%;  
+}
+
+
+header .telephone img{
+    display: none;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+    width: 40%;
+  
+}
+
+
+
+ /* --------start-something--------- */
+ #start-something{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+ /* --------box-color--------- */
+ #box-color{
+    width: 100%;
+    height: auto;
+    color: white;
+
+}
+
+
+
+.box-design , .box-built , .box-ourt , .box-sign-up , .perfect{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+
+.box-design{
+   background:palevioletred;
+   
+}
+
+.box-built{
+   background: purple;
+}
+
+.perfect{
+    background: rgb(30, 189, 30);
+}
+
+
+.box-ourt{
+   background: url(./images/box-bg.jpg) no-repeat center ;
+   background-size: cover;
+
+}
+
+.box-sign-up{
+   background: url(./images/box-bg-lg.jpg) no-repeat center;
+   background-size: cover;
+   
+}
+
+#box-color p , h3{ 
+    padding: 2% 5vh;
+ 
+    
+}
+
+
+
+
+/* ----------------- Alook at the detials --------------*/
+#the-details{
+    width: 100%;
+    height: auto;
+   
+}
+.container-p-details{
+     display: flex;
+     flex-direction: column;
+     padding-top: 5vh;
+  
+    
+}
+
+
+/* -----------More power ------------ */
+#more-power{
+    width: 100%;
+    height: auto;  
+    background: url("./images/full-image.jpg") no-repeat center;
+    background-position-x: 20%;  
+}
+
+#more-power-contente{
+ padding: 20vh 10%;
+ color: white;
+
+}
+
+#more-power-contente h2{
+    font-size: 6vh;
+
+}
+
+
+/* --------Raesons---------------- */
+#raesons-to-get{
+    font-display: flex;
+    width: 100%;
+    height:auto;
+    background-color: green; 
+    color: white; 
+
+}
+
+
+
+/* ----Avant dernier-steps */
+#avant-dernier-steps{
+    width: 100%;
+    height: auto;
+ 
+ }
+
+ #go-it-solo{
+     padding-top: 3vh;
+     padding-bottom: 10vh;
+     width: 100%;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+
+ }
+ 
+
+/* -------team-plan--- */
+ #team-plan{
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+     
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+   
+#logo-vant-dernier-steps img{
+    width: 10%;
+    padding-top: 5%;
+}
+
+#legacy{
+    width: 25%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    opacity: 0.1;
+}
+
+ 
+#team-plan .mostpopular{
+    width: 20%;
+    height: 3vh; 
+    background-color: purple;
+    color: white;
+}
+
+ #buy , .mostpopular{
+    width: 40%;
+    height: 5vh;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color: white;
+}
+
+
+
+   /* footer */
+footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(1, 1, 17);
+    color: white;
+}
+
+
+.valide{
+     display: flex;
+     width: 10%;
+     height: 5.4vh;
+     background-color: rgb(104, 204, 104) ;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.valide img{
+    width: 5vh;
+     
+}
+
+
+.form-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+
+}
+
+.discription{
+    width: 100%;
+   
+}
+
+.form{
+    width: 100%;
+    
+}
+
+
+footer input{
+    width: 90%;
+    height: 5vh;
+     
+}
+
+.dd{
+    display: flex;
+}
+
+
+
+
+
+
+
+ .transparance {
+     opacity: 0.3;
+} 
+
+
+footer #liste-footer{
+    width: 100%;
+    display: flex;
+    padding-top: 2%;
+    justify-content: space-between;
+   
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Media Query for Tablets Ipads portrait mode */ 
+ @media (min-width: 768px) and (max-width: 1024px){  
+
+     /*-------- Start-something-------- */
+    .p-container-start-something{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .grand-p{
+        width: 50%;
+    }
+
+    .petit-p{
+        width: 50%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
+
+    
+    /* ------Box color-------- */
+    .container-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-design, .box-built , .box-ourt  , .box-sign-up{
+        width: 50%;
+    }
+
+
+    /* ----A Look the details */
+    .container-p-details{
+        display: flex;
+       flex-direction: row;
+    
+        width: 100%;
+        height: auto; 
+    }
+
+    /* ---More power */
+    #more-power{
+        width: 100%;
+        background-position-x: 0%;  
+    }
+    
+    #more-power-contente h2{
+    font-size: 8vh;
+ 
+}
+
+#raesons-to-get{
+    padding-bottom: 10vh;
+
+}
+
+
+.container-p-raesons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Avant dernier stepss */
+
+.container-p-avant{
+    display: flex;     
+}
+
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive desktop */
+@media (min-width: 1024px){
+
+    
+  
+
+    .teste1{
+        display: flex;
+    }
+
+    header .telephone img{
+        display: block;
+        
+    }
+
+    #start-something{
+        width: 100%;
+        height: auto;
+
+    }
+    .p-container-start-something{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    .grand-p{
+        width: 45%;
+        height: auto;
+      
+    }
+
+    .petit-p{
+        width: 45%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /* ------Box color-------- */
+    .container-box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box-design, .box-built , .box-ourt  , .perfect{
+        width: 33%;
+        height: 30vh;
+       
+    }
+
+    
+    .box-sign-up{
+        width: 66%;
+    }
+
+
+    /* ----A Look the details */
+    .container-p-details{
+        display: flex;
+        flex-direction: row;
+       
+    }
+
+    /* ---More power */
+    #more-power{
+        width: 100%;
+        background-position-x: 0%;  
+    }
+    
+    #more-power-contente h2{
+    font-size: 8vh;
+ 
+}
+
+#avant-dernier-steps{
+    padding-bottom: 10vh;
+    
+}
+.container-p-raesons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Avant dernier stepss */
+
+.container-p-avant{
+    display: flex;  
+    justify-content: space-between;
+}
+
+#go-it-solo{
+    width: 45%;
+    background-color: white;
+}
+/* -------team-plan--- */
+#team-plan{
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 5px 5px rgba(0,0,0,0.78);
+    padding: 5%;
+    
+}
+
+
+footer{
+    width: 100%;
+    height: auto;
+}
+
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.dd{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.discription{
+    width: 50%;
+   
+}
+
+.form{
+    width: 50%;
+    
+}
+
+
+footer input{
+    width: 90%;
+    height: 5vh;
+     
+}
+
+
+
+footer #liste-footer{
+    width: 50%;
+   
+   
+}
+
+
+
+
+}
+
+
